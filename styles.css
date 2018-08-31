@@ -1,6 +1,6 @@
 
 /**********************************
-  				General
+  	General
 **********************************/
 
 * {
@@ -24,9 +24,6 @@ body,header, nav, #main, #content, footer {
     margin: 0 auto;
     font-family: 'Roboto', Verdana, sans-serif;
 }
-/*body {
-    word-wrap: break-word;
-}*/
 
 h4 {
 	text-align: center;
@@ -40,7 +37,7 @@ p {
 }
 
 /**********************************
-  				Header
+  	     Header
 **********************************/
 
 header {
@@ -67,10 +64,10 @@ header img {
 }
 
 /**********************************
-  				Nav
+         	Nav
 **********************************/
 nav {
-	height: auto;
+    height: auto;
     background-color: #181818;
     z-index: 1;
 }
@@ -165,10 +162,6 @@ nav ul ul li {
 	display: none;
 }
 
-/*#main-container {
-	position: relative;
-}*/
-
 #content {
 	flex: 1 1 100%;
 	background-color: #f5f6fa;
@@ -242,7 +235,7 @@ img.image:hover {
 	
 }
 /**********************************
-  				Table
+  	       Table
 **********************************/
 table {
     font-family: 'Roboto', sans-serif;
@@ -313,9 +306,8 @@ address {
 	
 }
 
-
 /**********************************
-  		  Media Queries
+  	  Media Queries
 **********************************/
 
 /*for 400px or less*/
@@ -441,7 +433,7 @@ address {
 
 @media only screen and (min-width: 601px) and (max-width: 800px){
 	nav ul  {
-        flex-direction: column;    
+        	flex-direction: column;    
     }
     
 	.scrollable-menu {
